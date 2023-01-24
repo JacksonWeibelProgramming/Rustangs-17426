@@ -49,6 +49,7 @@ public class ParkingTest extends LinearOpMode {
                 public void onError(int errorCode) {
                 }
             });
+
             SleeveDetection.ParkingPosition parkingPosition = sleeveDetection.getPosition();
             switch(parkingPosition)
             {
